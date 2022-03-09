@@ -8,6 +8,8 @@
     @font-face { font-family:'Unkempt'; src:url(Unkempt-Regular.ttf); font-display:swap; }
     html,body,#main { height: 98%; user-select:none; }
     body { background-color:#000000; color:#ffffff; font-family:'Unkempt';}
+    #main {  opacity: 1.0; animation: fadeIn1 3s ease-in-out  0s 1 normal; }
+    @keyframes fadeIn1 { 0% {opacity: 0} 100% {opacity: 1.0} }
     .bye { height:95%; font-size:clamp(30px,5vw,60px); display:flex; justify-content:center; align-items:center; }
     .npc { height:5%; font-size:clamp(12px,2vw,20px); text-align:center; }
   </style>
